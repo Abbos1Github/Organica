@@ -46,6 +46,8 @@ h2 {
     line-height: 58.59px;
 }
 button {
+    display: flex;
+    align-items: center;
     border: 1px solid transparent;
     border-radius: 16px;
     font-weight: 700;
@@ -101,6 +103,9 @@ hr {
     background-color: var(--main-blue-color);
     color: var(--main-button-color);
     border-color: var(--main-button-color);
+}
+.button--yellow:hover img {
+    background-color: #335b6b;
 }
 .offerbox__content-btn {
     margin-top: 37px;
